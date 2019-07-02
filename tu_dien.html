@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    let nhap = prompt("Nhập từ cần dịch: ");
+    let en = ['Book','Hello','Bye',];
+    let vn = ['Sách','Xin chào','Tam biệt'];
+      for(let i=0;i<en.length;i++){
+       if(en.indexOf(nhap)!== -1){
+           alert("Dịch ra là: "+vn[en.indexOf(nhap)]);break;
+       }else
+           alert("Không tìm thấy !");break;
+   }
+
+</script>
+</body>
+
+</html>
